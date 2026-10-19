@@ -15,12 +15,20 @@ public class loops {
         }
 
 
+        /* 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Temprature in C");
         float temC = input.nextFloat();
 
         float tempF = (temC * 9/5) + 32;
-        System.out.println(tempF);  
+        System.out.println(tempF);   
+        */
 
+        System.out.println("DO while Loop");
+        int num = 1;
+        do{
+            System.out.println(num);
+            num++;
+        }while(num <= 4);
     }
 }
